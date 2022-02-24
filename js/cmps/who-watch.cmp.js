@@ -62,31 +62,31 @@ export default {
                     id:'m101',
                     name: 'Fares Mulla',
                     shows: ['The 100', 'SHERLOCK', 'CHILDREN of ADAM', 'VIKINGS'],
-                    imgUrl: './img/001.jpg'
+                    imgUrl: './img/001.JPG'
                 },
                 {
                     id:'m102',
                     name: 'Reem Saleh',
                     shows: ['The 100', 'SHERLOCK', 'CHILDREN of ADAM', 'VIKINGS'],
-                    imgUrl: './img/002.jpg'
+                    imgUrl: './img/002.JPG'
                 },
                 {
                     id:'m103',
                     name: 'Tawfiq Ibrahim',
                     shows: ['The 100', 'SHERLOCK', 'CHILDREN of ADAM', 'VIKINGS'],
-                    imgUrl: './img/003.jpg'
+                    imgUrl: './img/003.JPG'
                 },
                 {
                     id:'m104',
                     name: 'Shadi Moaddi',
                     shows: ['The 100', 'SHERLOCK', 'CHILDREN of ADAM', 'VIKINGS'],
-                    imgUrl: './img/004.jpg'
+                    imgUrl: './img/004.JPG'
                 },
                 {
                     id:'m105',
                     name: 'Janan Farhoud',
                     shows: ['The 100', 'SHERLOCK', 'CHILDREN of ADAM', 'VIKINGS'],
-                    imgUrl: './img/005.jpg'
+                    imgUrl: './img/005.JPG'
                 }
             ],
             currUser:{},
@@ -109,7 +109,7 @@ export default {
             var newUser ={
                 id:'m'+(new Date().getTime()/10000000).toFixed(),
                 name:this.newUserName,
-                imgUrl: './img/001.jpg',
+                imgUrl: './img/001.JPG',
                 shows: ['The 100', 'SHERLOCK', 'CHILDREN of ADAM', 'VIKINGS']
             }
             this.users.push(newUser)
